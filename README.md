@@ -3,6 +3,7 @@
  
  <h3> Code </h3> 
 ```python 
+
 import smtplib
 import random
 from email.mime.text import MIMEText
