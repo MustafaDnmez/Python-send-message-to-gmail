@@ -19,12 +19,12 @@ with open("basari.txt", "r", encoding="utf-8") as f: #  take random sentence fro
          list.append(x)
 
     text = random.choice(list)
-    text1 = f"""
+    text1 = f
 
 
            <h2>{text}</h2>  
 
-    """  # email contect
+    # email contect
 
 contect = MIMEText(text1, "html", "utf-8")
 contect['From'] = Header("Python Daily", "utf-8")  # email header
